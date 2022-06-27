@@ -1,0 +1,91 @@
+/*  ===========
+      GLOBAL 
+    =========== */ 
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+a {
+  text-decoration: none;
+  font-size: 28px;
+}
+ul {
+  list-style-type: none;
+}
+
+h4 { 
+  font-size: 28px;
+}
+
+nav {
+  height: 100%;
+  background: #a2ecff;
+  display: grid;
+  align-items: center;
+  box-shadow: black;
+
+/*  ===========
+      NAVI 
+    =========== */ 
+
+}
+.nav-center {
+  margin:  0 auto ;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 10%;
+}
+.nav-links {
+  display: flex;
+}
+.nav-links li {
+  margin-left: 25px;
+  display: inline-block;
+}
+.nav-links :hover a {
+  color: #1e7af3;
+}
+.nav-links a {
+  color: rgb(51, 51, 51);
+} 
+
+/*  ===========
+      MAIN
+    =========== */  
+
+main {
+  min-height: 80vh;
+  display: grid;
+  place-items: center;
+}  
+
+.container {
+  text-align: center;
+}
+
+.container h2 {
+  padding: 16px;
+  border:solid 1px black;
+  border-radius: 10px;
+  background-color: black;
+  color: rgb(159, 247, 196);
+  margin-bottom: 40px;
+  font-size: 40px;
+} 
+.color {
+  color:#a2ecff;
+}
+
+.btn-btn {
+  padding: 16px;
+  font-size: 20px;
+  background: #65a1fc;
+  color: #ffffff;
+  border-radius: 10px;
+  cursor: pointer; 
+}
